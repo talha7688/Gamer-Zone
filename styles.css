@@ -80,8 +80,7 @@ img {
 }
 
 .sign-btn,
-.know-more
- {
+.know-more {
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     width: 100px;
@@ -92,7 +91,7 @@ img {
     cursor: pointer;
 }
 
-.sign-btn:hover{
+.sign-btn:hover {
     background: plum;
     color: black;
 }
@@ -128,9 +127,44 @@ img {
     align-items: center;
     padding: 0px 240px;
 }
-.gamer-img{
-   padding: 55px 0px;
+
+.gamer-img {
+    padding: 55px 0px;
 }
-.gamer-title{
+
+.gamer-title {
     font-size: 20px;
+}
+
+.our-purpose {
+    font-size: 25px;
+}
+
+/* card styles */
+.online-games-title {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.online-games {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    padding: 50px 240px;
+    font-size: 15px;
+}
+.play-instantly{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-around;
+    padding: 120px 240px;
+}
+.play-instantly-title{
+    font-size: 20px;
+}
+.play-instantly-img-2{
+    position: relative;
+    bottom: 200px;
+    padding-right: 400px;
 }
