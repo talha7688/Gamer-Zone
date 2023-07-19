@@ -1,0 +1,98 @@
+/* nav bar styles */
+nav {
+    background-color: rgb(245, 241, 243);
+}
+
+.nav-logo {
+    display: flex;
+    text-align: center;
+    padding: 44px 240px;
+    gap: 10px;
+}
+
+.nav-items ul {
+    display: flex;
+    text-align: center;
+    gap: 32px;
+    padding: 54px 240px;
+    font-size: 19px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 30px;
+}
+
+.nav-img {
+    width: 87px;
+    height: 40px;
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.youtube-logo {
+    width: 34px;
+    height: 24px;
+}
+
+.tiktok-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.follow-list {
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    align-items: center;
+
+}
+
+.follow-list li,
+img {
+    padding: 7px;
+}
+
+/* banner styles */
+.banner-container {
+    display: flex;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    padding: 20px 240px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    font-size: 25px;
+}
+
+.sign-btn {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    color: aliceblue;
+}
+
+.rogue-btn {
+    border-radius: 48px;
+    background: #4EC5F7;
+    width: 90px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    color: aliceblue;
+}
